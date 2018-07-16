@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Verify Logo]]>
+    </line>
+    <line>
+      <![CDATA[Click on Course+ button]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the data from excelsheet]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-06-11T11:54:51Z" name="Default suite" finished-at="2018-06-11T11:56:55Z" duration-ms="124000">
+    <groups>
+    </groups>
+    <test started-at="2018-06-11T11:54:51Z" name="Default test" finished-at="2018-06-11T11:56:55Z" duration-ms="124000">
+      <class name="demos.Scripts.Testing">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:demos.Scripts.Testing@272113c4]" started-at="2018-06-11T11:54:51Z" name="OpenBrowser" finished-at="2018-06-11T11:55:00Z" duration-ms="9047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="LoginToApp()[pri:0, instance:demos.Scripts.Testing@272113c4]" started-at="2018-06-11T11:55:00Z" name="LoginToApp" finished-at="2018-06-11T11:56:51Z" duration-ms="110057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method signature="Scripting()[pri:0, instance:demos.Scripts.Testing@272113c4]" started-at="2018-06-11T11:56:51Z" name="Scripting" finished-at="2018-06-11T11:56:54Z" duration-ms="3444" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify Logo]]>
+            </line>
+            <line>
+              <![CDATA[Click on Course+ button]]>
+            </line>
+            <line>
+              <![CDATA[Fetch the data from excelsheet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Scripting -->
+        <test-method is-config="true" signature="LogoutFromApp()[pri:0, instance:demos.Scripts.Testing@272113c4]" started-at="2018-06-11T11:56:54Z" name="LogoutFromApp" finished-at="2018-06-11T11:56:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:demos.Scripts.Testing@272113c4]" started-at="2018-06-11T11:56:54Z" name="CloseBrowser" finished-at="2018-06-11T11:56:55Z" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- demos.Scripts.Testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
